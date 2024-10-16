@@ -24,11 +24,11 @@
                     <td>
                         <ul class="nav">
                             <a href="{{route ('siswa.show', $s->id)}}" class="btn btn-success me-2">Show</a>
-                            <a href="{{route ('siswa.edit', $s->id)}}d" class="btn btn-primary me-2">Edit</a>
-                            <form action="{{route ('siswa.destroy', $s->id)}}" method="post">
+                            <a href="{{route ('siswa.edit', $s->id)}}" class="btn btn-primary me-2">Edit</a>
+                            <form action="{{route ('siswa.destroy', $s->id)}}" method="POST">
                                 @csrf
                                 @method('DELETE')
-                                <button type="button" class="btn btn-warning">Delete</button>
+                                <button type="submit" class="btn btn-warning">Delete</button>
                             </form>
                         </ul>
                     </td>
