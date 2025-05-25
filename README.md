@@ -1,5 +1,9 @@
 # Laravel 11 CRUD Siswa (Belum Selesai)
 
+[![Laravel](https://img.shields.io/badge/Laravel-11-red)](https://laravel.com/)
+[![Status](https://img.shields.io/badge/status-belum%20selesai-lightgrey)]()
+[![Progress](https://img.shields.io/badge/progress-learning-important)]()
+
 Ini adalah versi awal dari proyek CRUD Siswa berbasis Laravel, dibuat dengan Laravel 11.  
 Namun pengembangan dihentikan karena tutorial yang digunakan berbasis Laravel 8, sehingga terjadi beberapa ketidakcocokan versi dan kendala teknis lainnya.
 
