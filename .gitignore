@@ -39,3 +39,4 @@ composer.lock
 
 # Optional: jika pakai sail/docker
 docker-compose.override.yml
+/public/build
